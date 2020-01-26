@@ -34,12 +34,12 @@ class Waiter
     best_tipped_meal = meals.max do |meal_a, meal_b|
       meal_a.tip <=> meal_b.tip
     end
-
     best_tipped_meal.customer
-
+  end
+  
 end
 
-
+sam = Customer.new("Sam", 27)
 pat = Waiter.new("Pat", 2)
 alex = Waiter.new("Alex", 5)
 

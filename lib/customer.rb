@@ -41,7 +41,7 @@ end
 
 
 terrance = Customer.new("Terrance", 27)
-sam = Customer.new("Sam", 27)
+
 
 jason = Waiter.new("Jason", 4)
 andrew = Waiter.new("Andrew", 7)
