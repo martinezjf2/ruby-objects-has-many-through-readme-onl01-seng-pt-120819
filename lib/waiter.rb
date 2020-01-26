@@ -1,8 +1,5 @@
 
 
-
-
-
 class Waiter
 
   attr_accessor :name, :yrs_experience
@@ -37,9 +34,12 @@ class Waiter
 
     best_tipped_meal.customer
   end
-  
+
 
 end
+
+
+
 
 
 # pat = Waiter.new("Pat", 2)
