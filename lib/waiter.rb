@@ -1,8 +1,5 @@
 
 
-
-
-
 class Waiter
 
   attr_accessor :name, :yrs_experience
@@ -34,12 +31,15 @@ class Waiter
     best_tipped_meal = meals.max do |meal_a, meal_b|
       meal_a.tip <=> meal_b.tip
     end
+
     best_tipped_meal.customer
   end
-  
-<<<<<<< HEAD
+
 
 end
+
+
+
 
 
 # pat = Waiter.new("Pat", 2)
@@ -54,20 +54,3 @@ end
 # rachel.meals
 # rachel.meals.length
 # Meals.all.length
-=======
-end
-
-sam = Customer.new("Sam", 27)
-pat = Waiter.new("Pat", 2)
-alex = Waiter.new("Alex", 5)
-
-
-sam.new_meal(pat, 50, 10)
-sam.new_meal(alex, 20, 3)
-pat.new_meal(sam, 30, 5)
-
-
-rachel.meals
-rachel.meals.length
-Meals.all.length
->>>>>>> 4c6ced3cf1706aa0e84a131e364bd7310018415e
