@@ -36,19 +36,21 @@ class Waiter
     end
 
     best_tipped_meal.customer
+  end
+  
 
 end
 
 
-pat = Waiter.new("Pat", 2)
-alex = Waiter.new("Alex", 5)
-
-
-sam.new_meal(pat, 50, 10)
-sam.new_meal(alex, 20, 3)
-pat.new_meal(sam, 30, 5)
-
-
-rachel.meals
-rachel.meals.length
-Meals.all.length
+# pat = Waiter.new("Pat", 2)
+# alex = Waiter.new("Alex", 5)
+#
+#
+# sam.new_meal(pat, 50, 10)
+# sam.new_meal(alex, 20, 3)
+# pat.new_meal(sam, 30, 5)
+#
+#
+# rachel.meals
+# rachel.meals.length
+# Meals.all.length
