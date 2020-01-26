@@ -40,7 +40,7 @@ end
 
 
 
-<<<<<<< HEAD
+
 # terrance = Customer.new("Terrance", 27)
 # sam = Customer.new("Sam", 27)
 #
@@ -58,4 +58,3 @@ end
 #
 # jason.best_tipper
 # jason.best_tipper.name
-=======
