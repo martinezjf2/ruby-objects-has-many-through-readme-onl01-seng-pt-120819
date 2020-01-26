@@ -1,8 +1,4 @@
 
-
-
-
-
 class Customer
   attr_accessor :name, :age
 
@@ -40,6 +36,10 @@ end
 
 
 
+
+
+
+
 <<<<<<< HEAD
 # terrance = Customer.new("Terrance", 27)
 # sam = Customer.new("Sam", 27)
@@ -59,21 +59,3 @@ end
 # jason.best_tipper
 # jason.best_tipper.name
 =======
-terrance = Customer.new("Terrance", 27)
-
-
-jason = Waiter.new("Jason", 4)
-andrew = Waiter.new("Andrew", 7)
-yomi = Waiter.new("Yomi", 10)
-
-terrance.new_meal(jason, 50, 6)
-terrance.new_meal(andrew, 60, 8)
-terrance.new_meal(yomi, 30, 4)
-
-terrance.waiters
-terrance.waiters.length
-terrance.waiters.last.name
-
-jason.best_tipper
-jason.best_tipper.name
->>>>>>> 4c6ced3cf1706aa0e84a131e364bd7310018415e
